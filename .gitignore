@@ -1,0 +1,7 @@
+.DS_Store
+*.key
+*.crt
+*.pem
+*.env
+node_modules/
+coverage/
