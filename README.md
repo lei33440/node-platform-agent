@@ -70,14 +70,15 @@ and run it again. This replaces the Agent files, refreshes the local Agent
 certificate, re-registers the machine, and restarts the systemd service.
 Existing node state is retained in `/var/lib/node-platform-agent`.
 
-For a reviewed Xray version, set `XRAY_VERSION` before running the command:
+For a reviewed Xray version, export `XRAY_VERSION` in the same terminal before
+running the command copied from the administrator console:
 
 ```sh
-sudo XRAY_VERSION=v26.3.27 bash install-command.txt
+export XRAY_VERSION=v26.3.27
 ```
 
-Use the command directly from the administrator console when possible; the
-example above only illustrates the environment variable.
+Then paste and run the newly generated administrator command. Use the command
+directly from the administrator console when possible.
 
 ## Uninstall
 
